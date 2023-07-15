@@ -1,0 +1,162 @@
+* {
+    list-style: none;
+
+}
+
+.footer {
+    /* border: 1px solid; */
+    height: 30vh;
+    position: absolute;
+    bottom: -70rem;
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.footerImg {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.footerImg img {
+    width: 50%;
+}
+
+.imgContent {
+    margin-left: 2rem;
+}
+
+.imgContent h2 {
+    font-size: 2rem;
+    color: #002f34;
+}
+
+.imgContent p {
+    font-size: 21px;
+}
+
+.hr {
+    border: 1px solid #d1d1d1;
+    margin-left: 20px;
+    height: 20vh;
+}
+
+.getApp {
+    width: 30%;
+    padding: 10px 30px;
+
+}
+
+.getApp p {
+    font-weight: bold;
+    color: #002f34;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.images {
+    display: flex;
+    position: relative;
+    left: -1rem;
+}
+
+.getApp .AppImages {
+    width: 34%;
+    margin-left: 10px;
+}
+
+.mainFooter {
+    border-top: 1px solid #c3c3c3;
+    /* border: 1px solid red; */
+    bottom: -84rem;
+    height: 34vh;
+    width: 100%;
+    display: flex;
+    background-color: #eaeaea;
+    /* z-index: -1; */
+}
+
+.mainFooter section {
+    /* border: 1px solid; */
+    width: 19%;
+    position: relative;
+    top: -35px;
+    left: 30px;
+}
+
+section ul {
+    padding: 0;
+}
+
+section ul li {
+    color: #58878c;
+    margin-top: 7px;
+    font-size: 12px;
+
+}
+
+section ul li:nth-child(1) {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #002f34;
+}
+
+.followUs {
+    position: absolute;
+    right: 12rem;
+    top: 10px;
+}
+
+.followUs p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #002f34;
+}
+
+.followUs .icons {
+
+    font-size: 14px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.followUs .icons span {
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    margin-left: 10px;
+    padding: 2px;
+    color: #002f34;
+}
+.mainfooterImg{
+    /* border: 1px solid; */
+    display: flex;
+    width: 10%;
+}
+.mainfooterImg img{
+    width: 65%;
+    margin-left: 10px;
+}
+.downFooter {
+    background-color: #002f34;
+    height: 5vh;
+    width: 97%;
+    position: absolute;
+    bottom: -85rem;
+    z-index: 2;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.downFooterText {
+    /* border: 1px solid; */
+    padding: 0px 10px;
+}

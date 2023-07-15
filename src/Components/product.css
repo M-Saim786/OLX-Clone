@@ -1,0 +1,8 @@
+.productDiv{
+    position: absolute;
+    /* top: 20rem; */
+    bottom: -55rem;
+    z-index: 1;
+    height: 80vh;
+    border: 1px solid;
+}

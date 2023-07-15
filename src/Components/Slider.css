@@ -1,0 +1,61 @@
+* {
+    transition: all 0s !important;
+}
+
+.slider {
+    width: 94%;
+    display: block;
+    margin: 20px auto;
+    height: 29.2vh;
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    /* transform: translateX(100%); */
+    /* border: 1px solid; */
+    animation: Slider 10s linear infinite;
+}
+
+@keyframes Slider {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+        /* background: url('../Assests/Slider_Img.jpg'); */
+    }
+
+    35% {
+        transform: translateX(0);
+        opacity: 1;
+        /* display: none !important; */
+    }
+
+    40% {
+        transform: translateX(0%);
+        opacity: 1;
+        /* display: none !important; */
+
+    }
+    43%{
+        transform: translateX(-120%);
+        opacity: -1;
+    }
+
+    47% {
+        opacity: -1;
+        transform: translateX(120%);
+        background-image: url('../Assests/Slider_Img.jpg');
+    }
+    52% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+
+        transform: translateX(0);
+
+    }
+}
+.slider img {
+    width: 100%;
+    height: 30vh;
+    background-image: url('../Assests/Slider_Img.jpg');
+}

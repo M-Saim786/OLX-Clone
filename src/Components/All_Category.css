@@ -1,0 +1,32 @@
+.All_Category {
+    width: 94%;
+    margin: 3rem auto;
+    position: absolute;
+    top: 30rem;
+    left: 2rem;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+
+.categories ul li {
+    display: inline-grid;
+    border: 1px solid;
+    height: 22vh;
+    width: 9%;
+    padding: 10px;
+    margin-left: 7px;
+    text-align: center;
+}
+
+.categories ul li img {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.categories ul li span {
+    font-weight: bold;
+    font-size: 18px;
+}
