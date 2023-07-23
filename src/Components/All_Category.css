@@ -1,23 +1,25 @@
 .All_Category {
     width: 94%;
     margin: 3rem auto;
-    position: absolute;
-    top: 30rem;
-    left: 2rem;
+    position: relative;
+    top: 7rem;
+    /* left: 2rem; */
+    color: #002f34;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 
 .categories ul li {
     display: inline-grid;
-    border: 1px solid;
-    height: 22vh;
-    width: 9%;
+    /* border: 1px solid; */
+    height: 27vh;
+    width: 11%;
     padding: 10px;
-    margin-left: 7px;
+    /* margin-left: 7px; */
     text-align: center;
 }
 
@@ -28,5 +30,5 @@ h2 {
 
 .categories ul li span {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }

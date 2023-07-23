@@ -8,12 +8,25 @@ function All_Category() {
         const dbref = ref(db, 'SubCategory')
         onValue(dbref, (snapShot) => {
             let data = snapShot.val()
-            if (data!==null) {
+            if (data !== null) {
+                // console.log(data)
+                let dataVal = Object.values(data)
+                // console.log(dataVal)
+                let timeArr = []
+                for (let i of dataVal) {
+                    // console.log(i)
+                    i = i.time / 3600
+                    // console.log(i)
+
+                    for (let j of dataVal) {
+
+                    }
+                }
                 setCategoryArr(Object.values(data))
-                
+
             }
-            else{
-                console.log('Category')
+            else {
+                // console.log('Category')
             }
         })
     }, [])

@@ -3,16 +3,25 @@
 
 }
 
+.completeFooter{
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: -12rem;
+
+}
 .footer {
-    /* border: 1px solid; */
+    /* border: 1px solid ; */
     height: 30vh;
-    position: absolute;
-    bottom: -70rem;
+    /* position: relative; */
+    /* bottom: -70rem; */
     display: flex;
     align-items: center;
     background-color: #f9f9f9;
 }
-
+/* ------------------------- UpFooter ----------------------- */
+.Upfooter{
+    /* border-bottom: 1px solid #c3c3c3; */
+}
 .footerImg {
     width: 70%;
     display: flex;
@@ -20,7 +29,7 @@
 }
 
 .footerImg img {
-    width: 50%;
+    width: 46%;
 }
 
 .imgContent {
@@ -65,12 +74,12 @@
     width: 34%;
     margin-left: 10px;
 }
-
+/* -------------------------- Main Footer -------------------------- */
 .mainFooter {
     border-top: 1px solid #c3c3c3;
     /* border: 1px solid red; */
-    bottom: -84rem;
-    height: 34vh;
+    /* bottom: -84rem; */
+    height: 30vh;
     width: 100%;
     display: flex;
     background-color: #eaeaea;
@@ -81,7 +90,7 @@
     /* border: 1px solid; */
     width: 19%;
     position: relative;
-    top: -35px;
+    top: -1rem;
     left: 30px;
 }
 
@@ -106,7 +115,7 @@ section ul li:nth-child(1) {
 .followUs {
     position: absolute;
     right: 12rem;
-    top: 10px;
+    top: 14rem;
 }
 
 .followUs p {
@@ -141,13 +150,15 @@ section ul li:nth-child(1) {
 .mainfooterImg img{
     width: 65%;
     margin-left: 10px;
-}
+ }
+/* ----------------------------- Down Footer -------------------- */
 .downFooter {
+    background-color: #000000;
     background-color: #002f34;
     height: 5vh;
-    width: 97%;
-    position: absolute;
-    bottom: -85rem;
+    width: 100%;
+    position: relative;
+    /* bottom: -86rem;/ */
     z-index: 2;
     color: white;
     text-align: right;

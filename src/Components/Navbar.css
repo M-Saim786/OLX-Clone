@@ -26,7 +26,7 @@ header {
     padding: 8px;
     background-image: linear-gradient(#eaeaea, white);
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 
@@ -52,6 +52,7 @@ header {
     margin-left: 10px;
 }
 
+/* ------------------- Middle Navbar ------------------- */
 .middleNav {
     /* border: 1px solid; */
     display: flex;
@@ -60,9 +61,10 @@ header {
     height: 10vh;
 }
 
-.secondaryLogo{
+.secondaryLogo {
     width: 14%;
 }
+
 .secondaryLogo img {
     width: 70%;
     margin-left: 20px;
@@ -70,7 +72,7 @@ header {
 }
 
 .searchBars {
-  
+
     width: 78%;
     display: flex;
     align-items: center;
@@ -144,9 +146,11 @@ header {
     font-size: 20px;
     border: none;
     /* border: 1px solid; */
+    display: inline-flex;
     position: relative;
-    top: 12px;
+    /* top: 12px; */
     left: -10px;
+    cursor: pointer;
 }
 
 .sellDiv button img {
@@ -164,11 +168,11 @@ header {
     /* width: 100%; */
     /* display: inline/; */
     position: relative;
-    top: -42px;
-    left: 20px;
+    left: -76px;
     font-size: 14px;
     font-weight: bold;
-
+    display: flex;
+    top: 15px;
 }
 
 
@@ -183,7 +187,7 @@ nav {
     display: flex;
     align-items: center;
     position: relative;
-    top: 9rem;
+    top: 7.3rem;
 }
 
 .categoriesUl li {
@@ -192,8 +196,168 @@ nav {
     margin-left: 1rem;
 }
 
+.categoriesUl li {
+    font-size: 14px;
+}
+
 
 .categoriesUl li:first-child {
     font-weight: bold;
     margin-right: 2rem;
+}
+
+
+/* ---------------------- Modal Form ------------- */
+.modal-header {
+    border-bottom: 0px;
+}
+
+.modal-content {
+    width: 80%;
+    margin: 38px auto;
+}
+
+.modalBody {
+    color: #002f34;
+    height: 80vh;
+    text-align: center;
+
+}
+
+.imgLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.modalBodyContent {
+    width: 85%;
+    margin: 10px auto;
+    height: 67vh;
+}
+
+.modalBodyContent h4 {
+    font-weight: 25%;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.modalBodyContent p {
+    /* border: 1px solid; */
+    width: 75%;
+    margin: 10px auto;
+    font-size: 17px;
+}
+
+
+
+.registerBtn {
+    border: 2px solid #002f34;
+    height: 7vh;
+    width: 100%;
+    color: #002f34;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.registerBtn:hover {
+    border: 4px solid;
+}
+
+
+.registerBtn .btnIcon {
+    /* border: 1px solid; */
+    width: 9%;
+    margin-left: 10px;
+    margin-right: 45px;
+    /* margin-left: 10px; */
+    /* display: block; */
+    /* 
+    .margin: 8px 10px; */
+}
+.registerBtn span{
+    /* border: 1px solid; */
+    margin-left: -10px;
+}
+
+.modalFooterText {
+    color: #002f34;
+    font-size: 14px;
+    width: 80%;
+    display: block;
+    margin: 4rem auto;
+}
+
+.modalFooterText a {
+    text-decoration: none;
+}
+
+/* ----------------------- MODAL FROM 2 ----------------------------- */
+.modal2Body{
+    text-align: center;
+
+}
+.modal2Body img {
+    /* border: 1px solid red; */
+    width: 13%;
+}
+
+.modal2Body h3 {
+    /* border: 1px solid; */
+    font-size: 18px;
+    font-weight: bold;
+    color: #002f34;
+    margin-top: 2rem;
+}
+
+.modal2Body .EmailInp {
+    /* display: flex; */
+    width: 100%;
+    margin-top: 2rem;
+    height: 7vh;
+    padding-left: 10px;
+    /* font-size: 20px; */
+    border: 0.5px solid #002f34;
+
+    border-radius: 5px;
+outline: none;
+}
+.EmailInp:focus{
+
+    border: none;
+    border: 0.5px solid aqua;
+    /* z-index: 2; */
+}
+
+.modal2Body button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 7vh;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.modal2Body button:hover{
+    color: white;
+
+}
+.modal2Body .btn{
+    background-color: #002f34;
+
+}
+.modal2Body .disabledBtn{
+    background-color: #eaeaea;
+    color: #6e6c6c9e;
+    cursor: not-allowed;
+}
+
+.modal2Body p {
+    font-size: 12px;
+    color: #002f34;
+    /* border: 1px solid; */
+margin-top: 20px;
 }

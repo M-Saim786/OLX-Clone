@@ -7,9 +7,9 @@
     display: block;
     margin: 20px auto;
     height: 29.2vh;
-    position: absolute;
-    top: 15rem;
-    left: 2rem;
+    position: relative;
+    top: 7rem;
+    /* left: 2rem; */
     /* transform: translateX(100%); */
     /* border: 1px solid; */
     animation: Slider 10s linear infinite;

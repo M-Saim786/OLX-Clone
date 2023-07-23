@@ -1,8 +1,64 @@
-.productDiv{
-    position: absolute;
+.productDiv {
+    /* border: 1px solid; */
+    position: relative;
     /* top: 20rem; */
-    bottom: -55rem;
-    z-index: 1;
-    height: 80vh;
+    bottom: -7rem;
+    height: auto;
+    padding: 20px;
+}
+
+.Products {
+    padding: 20px;
+}
+
+.CardsRow {
+    /* border: 1px solid red ; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.card {
+    cursor: pointer;
+    width: 25%;
+    height: auto;
+}
+
+.card:not(:first-child) {
+    /* border: 1px solid; */
+    margin-left: 25px;
+}
+
+.card img {
     border: 1px solid;
+    height: 25vh;
+    /* border: none; */
+    /* width: 10%; */
+}
+
+.Products .viewMore {
+    float: right;
+    margin-top: -30px;
+
+
+}
+.card .favouriteIcon{
+    /* border: 1px solid; */
+    float: right;
+    font-size: 25px;
+    margin-top: -30px;
+}
+.title{
+    font-weight: bold;
+}
+.Product_Desc{
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+.Product_Address{
+    font-size: 1rem;
+}
+.viewMoreIcon{
+    font-size: 22px;
+    /* font-weight: bold; */
 }

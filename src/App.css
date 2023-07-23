@@ -1,5 +1,5 @@
 * {
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -11,9 +11,10 @@ body {
 
 .gotoTop {
   position: fixed;
-  top: 14rem;
+  top: 8rem;
   left: 40rem;
   padding: 9px;
+  border: 0.5px solid;
   border-radius: 30px;
   z-index: 1;
   font-size: 17px;
@@ -22,14 +23,24 @@ body {
   text-align: center;
   display: none;
   background: white;
+  align-items: center;
+  justify-content: center;
+}
 
+.gotoTop:hover {
+  border: 3px solid black;
 }
-.gotoTop:hover{
-  border: 4px solid black;
-}
+
 .gotoTop .UpIcon {
   font-size: 25px;
-  text-align: center;
-}.gotoTop a{
+  position: relative;
+  top: -2px;
+  left: -5px;
+}
+
+.gotoTop a {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
   color: black;
 }

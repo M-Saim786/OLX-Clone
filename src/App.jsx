@@ -8,8 +8,8 @@ import Product from './Components/Product';
 import Footer from './Components/Footer';
 function App() {
   window.onscroll=()=>{
-    if (window.scrollY >800) {
-      document.getElementsByClassName("gotoTop")[0].style.display="block";
+    if (window.scrollY >600) {
+      document.getElementsByClassName("gotoTop")[0].style.display="flex";
     }
     else{
       document.getElementsByClassName("gotoTop")[0].style.display="none";
