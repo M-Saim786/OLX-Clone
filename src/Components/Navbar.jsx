@@ -11,7 +11,7 @@ import { FaPlus } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { AiOutlineArrowLeft } from 'react-icons/ai'
-// ------------------- Images -----------------
+// ------------------- ICONS -----------------
 import Logo from '../Assests/SmallLogo.png'
 import SecondaryLogo from '../Assests/Logo.png'
 import Google from '../Assests/googlwe.png'
